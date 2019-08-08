@@ -1,0 +1,255 @@
+/*
+   Designed and developed by TIJSEN.NET 
+   Last change: 14 Oct 2004 11:00
+*/
+
+/* global definitions */
+body {
+  background: #56734d;
+  text-align: center;
+  margin: 0px;
+}
+p {
+  margin: 0px 0px 5px 0px;
+}
+ul {
+  margin: 0px 0px 5px 0px;
+}
+
+/* three column page positioning */
+#threecol_table {
+  margin: 0px;
+  padding: 0px;
+}
+#threecol_logonav {
+  vertical-align: top;
+} 
+#threecol_logo {
+  margin: 10px 0px 0px 0px;
+  vertical-align: bottom;
+  width: 246px;
+  height: 79px;
+}
+#threecol_logodots {
+  vertical-align: top;
+  width: 22px;
+  background-image: url(http://iscm.tijsen.net/images/nav_dotsvert.gif);
+}  
+#threecol_dots {
+  width: 20px;
+  background-image: url(http://iscm.tijsen.net/images/dotsvert.gif);
+}
+#threecol_navdots {
+  width: 20px;
+  background-image: url(http://iscm.tijsen.net/images/nav_dotsvert.gif);
+}
+#threecol_dotshoriz {
+  width: 246px;
+  height: 15px;
+}
+#threecol_nav {
+  vertical-align: top;
+  padding: 5px 0px 5px 0px;
+}
+#threecol_col1 {
+  width: 241px;
+  vertical-align: top;
+  padding: 10px 0px 0px 0px;
+}
+#threecol_col2 {
+  width: 241px;
+  vertical-align: top;
+  padding: 10px 0px 0px 0px;  
+}
+#threecol_logodotscircle {
+  position: relative;
+  top: 89px;
+}
+
+
+/* two column page positioning */
+#twocol_table {
+  margin: 0px;
+  padding: 0px;
+}
+#twocol_logonav {
+  vertical-align: top;
+} 
+#twocol_logo {
+  vertical-align: bottom;
+  width: 246px;
+  height: 79px;
+}
+#twocol_logodots {
+  vertical-align: top;
+  width: 22px;
+  background-image: url(http://iscm.tijsen.net/images/nav_dotsvert.gif);
+}  
+#twocol_dots {
+  width: 20px;
+  background-image: url(http://iscm.tijsen.net/images/dotsvert.gif);
+}
+#twocol_navdots {
+  width: 20px;
+  background-image: url(http://iscm.tijsen.net/images/nav_dotsvert.gif);
+}
+#twocol_dotshoriz {
+  width: 246px;
+  height: 15px;
+}
+#twocol_nav {
+  vertical-align: top;
+  padding: 5px 0px 5px 0px;
+}  
+#twocol_col1 {
+  width: 502px;
+  vertical-align: top;
+  padding: 10px 0px 0px 0px;
+}
+#twocol_logodotscircle {
+  position: relative;
+  top: 89px;
+}
+
+/* navigation box definition */
+#nav_top {
+  width: 235px;
+  height: 29px;
+  background-image: url(http://iscm.tijsen.net/images/box_top.gif);
+  text-align: center;
+  font-family: arial, sans-serif;
+  font-variant: small-caps;
+  font-size: 16px;
+  font-weight: bold;  
+}
+#nav_content {
+  background-image: url(http://iscm.tijsen.net/images/box_content.gif);
+  padding: 0px 0px 0px 10px;
+  text-align: left;
+}
+#nav_bottom {
+  width: 235px;
+  height: 12px;
+  background-image: url(http://iscm.tijsen.net/images/box_bottom.gif);
+}
+.nav_link:link {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  text-decoration: underlined;
+  font-weight: bold;
+  color: #550000;
+}
+.nav_link:visited {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  text-decoration: underlined;
+  font-weight: bold;
+  color: #550000;
+}
+.nav_link:hover {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  text-decoration: underlined;
+  font-weight: bold;
+  color: #AA0000;
+}
+.nav_link:active {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  text-decoration: underlined;
+  font-weight: bold;
+  color: #550000;
+}
+.nav_p {
+  margin: 0px 0px 10px 0px;
+}
+
+/* small column box definition */
+.sbox {
+  width: 235px;
+  margin: 0px 0px 10px 0px;
+}
+.sbox_top {
+  width: 235px;
+  height: 29px;
+  background-image: url(http://iscm.tijsen.net/images/box_top.gif);
+  text-align: center;
+  font-family: arial, sans-serif;
+  font-variant: small-caps;
+  font-size: 16px;
+  font-weight: bold;  
+}
+.sbox_content {
+  background-image: url(http://iscm.tijsen.net/images/box_content.gif);
+  padding: 0px 0px 0px 10px;
+  text-align: left;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+}
+.sbox_bottom {
+  width: 235px;
+  height: 12px;
+  background-image: url(http://iscm.tijsen.net/images/box_bottom.gif);
+}
+
+/* large column box definition */
+.lbox {
+  width: 490px;
+  margin: 0px 0px 10px 0px;
+}
+.lbox_top {
+  width: 490px;
+  height: 29px;
+  padding: 0px 0px 0px 10px;
+  background-image: url(http://iscm.tijsen.net/images/lbox_top.gif);
+  text-align: left;
+  font-family: arial, sans-serif;
+  font-variant: small-caps;
+  font-size: 16px;
+  font-weight: bold;  
+}
+.lbox_content {
+  background-image: url(http://iscm.tijsen.net/images/lbox_content.gif);
+  padding: 0px 5px 0px 10px;
+  text-align: left;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+}
+.lbox_bottom {
+  width: 490px;
+  height: 12px;
+  background-image: url(http://iscm.tijsen.net/images/lbox_bottom.gif);
+}
+
+/* Hyperlinks in normal content */
+.content_link:link {
+  text-decoration: underlined;
+  color: #550000;
+}
+.content_link:visited {
+  text-decoration: underlined;
+  color: #550000;
+}
+.content_link:hover {
+  text-decoration: underlined;
+  color: #AA0000;
+}
+.content_link:active {
+  text-decoration: underlined;
+  color: #550000;
+}
+
+/* Images in normal content */
+.content_image {
+  margin: 0px 0px 5px 0px;
+}
+
+/* Other */
+#copyrights {
+  font-family: arial, sans-serif;
+  font-size: 10px;
+  color: #aaaaaa;
+  text-align: center;
+}
+font.country {font-family:arial, sans-serif; font-size:20pt; color:#AAAAAA}
+
